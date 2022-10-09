@@ -4,9 +4,8 @@ body {
     flex-wrap: wrap;
     align-items: flex-start;
     background: #F1F3F5;
-    width: 1440px;
-    height: 810px;
 }
+
 .logo {
     font-family: 'Baloo';
     font-style: normal;
@@ -40,26 +39,31 @@ body {
     height: 102px;
     width: 343px;
 }
-@media screen and (max-width: 1000px){
+
+@media screen and (max-width: 1000px) {
     .title-1 {
         font-size: 70px;
     }
+}
+
+@media screen and (max-width: 800px) {
+    .title-1 {
+        font-size: 40px;
     }
-    @media screen  and (max-width: 800px){
-        .title-1{
-            font-size: 40px;
-        }
+}
+
+@media screen and (min-width: 1000px) {
+    .title-1 {
+        font-size: 70px;
     }
-    @media screen  and (min-width: 1000px){
-        .title-1{
-            font-size: 70px;
-        }
+}
+
+@media screen and (min-width: 800px) {
+    .title-1 {
+        font-size: 40px;
     }
-    @media screen  and (min-width: 800px){
-        .title-1{
-            font-size: 40px;
-        }
-    }
+}
+
 .text-1 {
     height: 98px;
     width: 410px;
